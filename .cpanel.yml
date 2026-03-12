@@ -1,4 +1,3 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/vano3695/public_html/vert-menthe.fr/
-    - /bin/rsync -avz --exclude '.git' --delete ./ $DEPLOYPATH
+    - /bin/rsync -avz --exclude '.git' --delete ./ /home/vano3695/public_html/vert-menthe.fr/
